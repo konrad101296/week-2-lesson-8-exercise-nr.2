@@ -1,7 +1,7 @@
-﻿int a = 0;
+int evenNumber = 0;
 do
 {
-    Console.WriteLine(a);
-    a += 2;
+    Console.WriteLine(evenNumber);
+    evenNumber += 2;
 }
-while (a <= 1000);
+while (evenNumber <= 1000);
